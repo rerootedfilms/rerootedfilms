@@ -1,0 +1,164 @@
+-- import: rerootedfilms.fifthtry.site as i
+
+-- site-doc.doc-home: Film Studio Template
+current-package: film-studio.fifthtry.site
+show-tabs: false
+site-title: Film Studio Template
+
+-- site-doc.output:
+colors: $ftd.default-colors
+
+-- site-doc.header: What is a Film Studio Template?
+
+Film Studio Template is a landing page template for a website.
+
+-- site-doc.header: How to use Film Studio Template ?
+
+To use Film Studio Template, there are various components used, you just have
+to go inside your `index.ftd` file and update the content as required.
+
+-- site-doc.header: Hero Section:
+
+This is the hero section of this website. Over here it takes
+`hero-with-background` components from `hero.fifthtry.site` package. To check
+more hero components go to [`hero.fifthtry.site`](https://hero.fifthtry.site/)
+
+-- ds.code:
+
+\-- hero.hero-with-background: Excepteur sint occaecat cupidatat non proident
+bg-image: $assets.files.assets.bg-img.jpg
+sub-title: Excepteur | Cupidatat | Proident
+
+-- site-doc.output:
+
+-- hero.hero-with-background: Excepteur sint occaecat cupidatat non proident
+bg-image: $assets.files.assets.bg-img.jpg
+sub-title: Excepteur | Cupidatat | Proident
+
+-- end: site-doc.output
+
+-- site-doc.header: What We Offer Section:
+
+This is the icon card section of this website. Over here it takes
+`icon-card` components from `card.fifthtry.site` package. To check
+more card components go to [`card.fifthtry.site`](https://card.fifthtry.site/)
+
+-- ds.code:
+
+\-- card.icon-card: Audio Visual
+icon: $assets.files.assets.icon-1.svg
+
+Impact Stories, Music Animated Videos
+
+-- site-doc.output:
+
+-- card.icon-card: Audio Visual
+icon: $assets.files.assets.icon-1.svg
+
+Impact Stories, Music Animated Videos
+
+-- end: site-doc.output
+
+-- site-doc.header: Previous Work Section:
+
+This is the hastag card section of this website. Over here it takes
+`hastag-card` components from `card.fifthtry.site` package. To check
+more card components go to [`card.fifthtry.site`](https://card.fifthtry.site/)
+
+-- ds.code:
+
+\-- card.hastag-card: Transform ideas.
+bg-image: $assets.files.assets.card-2.jpg
+hastag: #one #two #three
+cta-link: /
+
+-- site-doc.output:
+
+-- card.hastag-card: Transform ideas.
+bg-image: $assets.files.assets.card-2.jpg
+hastag: #one #two #three
+cta-link: /
+
+-- end: site-doc.output
+
+-- site-doc.header: Partners in Purpose:
+
+This is the icon card section of this website. Over here it takes
+`icon-card` components from `card.fifthtry.site` package. To check
+more card components go to [`card.fifthtry.site`](https://card.fifthtry.site/)
+
+-- ds.code:
+
+\-- card.icon-card:
+icon: $assets.files.assets.logo.svg
+
+-- site-doc.output:
+
+-- card.icon-card:
+icon: $assets.files.assets.logo.svg
+
+-- end: site-doc.output
+
+-- site-doc.header: Testimonials:
+
+This is the testimonial section of this website. Over here it takes
+`testimonial-card` components from `testimonial.fifthtry.site` package. To check
+more testimonial components go to [`testimonial.fifthtry.site`](https://testimonial.fifthtry.site/)
+
+-- ds.code:
+
+\-- testimonials.testimonial-card:
+testimonials: $list-of-testimonials-top
+
+-- site-doc.output:
+
+-- testimonials.testimonial-card:
+testimonials: $i.list-of-testimonials-top
+
+-- end: site-doc.output
+
+-- site-doc.header: Our commitment to sustainability:
+
+This is the hero-sticky-image section of this website. Over here it takes
+`hero-sticky-image` components from `hero.fifthtry.site` package. To check
+more hero components go to [`hero.fifthtry.site`](https://hero.fifthtry.site/)
+
+-- ds.code:
+
+\-- hero.hero-sticky-image: This website takes up ___ C02
+sticky-image: $assets.files.assets.icon-2.svg
+sub-title-1: We follow a low waste process on all our shoots.
+sub-title-2: We even audit our waste in the form of a certificate.
+
+-- site-doc.output:
+
+-- hero.hero-sticky-image: This website takes up ___ C02
+sticky-image: $assets.files.assets.icon-2.svg
+sub-title-1: We follow a low waste process on all our shoots.
+sub-title-2: We even audit our waste in the form of a certificate.
+
+-- end: site-doc.output
+
+-- site-doc.header: Team:
+
+This is the team member section of this website. Over here it takes
+`member` components from `team.fifthtry.site` package. To check
+more team components go to [`team.fifthtry.site`](https://team.fifthtry.site/)
+
+-- ds.code:
+
+\-- team.member: 
+team-member: $team-member
+
+-- site-doc.output:
+
+-- team.member: 
+team-member: $i.team-member
+
+-- end: site-doc.output
+
+-- site-doc.header: Footer: 
+
+Below all the components there is footer section where you can add all you contact details.
+
+-- end: site-doc.doc-home

@@ -1,0 +1,55 @@
+-- import: navbar.fifthtry.site
+-- import: footer.fifthtry.site
+-- import: design-system.fifthtry.site
+export: *
+
+-- ftd.image-src site-logo: $setting.site-logo
+-- string site-url: $setting.site-url
+-- string copyright: $setting.copyright
+
+-- import: rerootedfilms.fifthtry.site/cs
+-- import: karma-typography.fifthtry.site as typo
+
+-- ftd.color-scheme colors: $cs.main
+-- ftd.type-data types: $typo.types
+
+-- ds.page-widths widths:
+regular.px: 1920
+narrow.px: 1920
+wide.px: 2200
+
+
+-- component site-header:
+
+-- navbar.header:
+sections: $navbar.sitemap.sections
+site-url: /
+site-logo: $setting.site-logo
+align-right: true
+
+-- end: site-header 
+
+
+
+
+-- component site-footer:
+
+-- footer.social-sideline-footer: This website takes up 3.86 C02.
+footer-links: $footer.sitemap.sections
+copyright: $setting.copyright
+twitter-logo: $setting.twitter-logo
+twitter-url: $setting.twitter-url
+facebook-logo: $setting.facebook-logo
+facebook-url: $setting.facebook-url
+discord-logo: $setting.discord-logo
+discord-url: $setting.discord-url
+instagram-logo: $setting.instagram-logo
+instagram-url: $setting.instagram-url
+telegram-logo: $setting.telegram-logo
+telegram-url: $setting.telegram-url
+site-url: $setting.site-url
+site-logo: $site-logo
+logo-height: $setting.logo-height
+social: $setting.social
+
+-- end: site-footer

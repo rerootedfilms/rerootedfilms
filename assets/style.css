@@ -1,0 +1,23 @@
+.scroll-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-content {
+  display: flex;           /* use flex to align items in a row */
+  align-items: center;     /* vertically center the images */
+  will-change: transform;  /* optimize transform performance */
+}
+
+.icon-container {
+  width: 150px;            /* image width */
+  margin-right: 50px;      /* space between images */
+  flex-shrink: 0;          /* prevent shrinking */
+}
+
+.icon {
+  width: 100%;             /* full width of container */
+  height: auto;            /* keep aspect ratio */
+  display: block;
+}

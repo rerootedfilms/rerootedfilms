@@ -1,0 +1,641 @@
+-- ds.site-page: ReRooted Films
+spacing: $ds.spaces.vertical-gap.zero
+inset: $ds.spaces.inset-square.zero
+theme-switcher: false
+margin: $ds.spaces.vertical-gap.zero
+document-title: ReRooted Films || Home
+document-description: ReRooted Films Website.
+document-image: https://film-studio.fifthtry.site/-/film-studio.fifthtry.site/assets/card-2-dark.jpg
+
+
+
+
+-- ds.column:
+align-content: top-center
+spacing: $ds.spaces.vertical-gap.zero
+margin: $ds.spaces.vertical-gap.zero
+inset: $ds.spaces.inset-square.zero
+
+	-- hero.hero-with-background: ReRooted.Films
+	bg-image: $assets.files.assets.banners.homepage.png
+	sub-title: Rooted in Stories.Grounded in Sustainability.
+	min-height.fixed.vh: 100
+	color-hero: #ffffff
+	color-text: #ffffff
+	
+	
+	
+	
+	-- ds.column:
+	radius: $ds.radius.zero
+	inset: $ds.spaces.inset-square.extra-large
+	spacing: $ds.spaces.vertical-gap.extra-large
+	
+		-- ds.heading-large: What We Offer
+		
+		-- ds.row:
+		wrap: true
+		spacing: $ds.spaces.horizontal-gap.extra-extra-large
+		spacing if { ftd.device == "mobile" }: $ds.spaces.horizontal-gap.zero
+		inset: $ds.spaces.inset-tall.zero-medium
+		
+			-- card.icon-card: Audio
+			icon: $assets.files.assets.icons.podcast_icon.svg
+			width: hug-content
+			card-icon: true
+			
+			PODCASTS. PSA.JINGLES.
+			
+			-- card.icon-card: Audio Visual
+			icon: $assets.files.assets.icons.film.svg
+			width: hug-content
+			card-icon: true
+			
+			DOCUMENTARIES. FICTION FILMS. ADS. MUSIC VIDEOS.
+			
+			-- card.icon-card: Text
+			icon: $assets.files.assets.icons.book_icon.svg
+			width: hug-content
+			card-icon: true
+			
+			REPORTS. SCRIPTS. BOOKS.
+			
+		-- end: ds.row
+
+	-- end: ds.column
+
+
+
+
+	-- ds.column:
+	radius: $ds.radius.zero
+	inset: $ds.spaces.inset-tall.zero-medium
+	spacing: $ds.spaces.vertical-gap.extra-large
+	margin: $ds.spaces.vertical-gap.extra-large
+	
+		-- ds.heading-large: Previous Work
+		
+		-- ds.row:
+		wrap: true
+		spacing: $ds.spaces.horizontal-gap.zero
+		
+			-- card.hastag-card: Swachh Sundar Sikanderpur | Saahas NGO
+			bg-image: $assets.files.assets.work.sss.png
+			hastag:Impact Film
+			cta-link: https://www.youtube.com/watch?v=gnXcT1ICKf4
+			
+			-- card.hastag-card: ariEWu | Saahas Zero Waste
+			bg-image: $assets.files.assets.work.ariewu.png
+			hastag: Project Film
+			cta-link: https://www.youtube.com/watch?v=tk5qmKMx3Lk
+			
+			-- card.hastag-card: Samayada Harivu
+			bg-image: $assets.files.assets.work.Samayada_Harivu.png
+			hastag: Short Documentary
+			cta-link: https://www.youtube.com/watch?v=-3F7IoBJGv0&t=1s
+			
+			-- card.hastag-card: Bangalore 560046
+			bg-image: $assets.files.assets.work.Bangalore560046.png
+			hastag: Short Documentary
+			cta-link: https://www.youtube.com/watch?v=pLS2YxEm4ik
+			
+			-- card.hastag-card: GarbhaGudi
+			bg-image: $assets.files.assets.work.ads.png
+			hastag: Ads for Tv & Theatre
+			cta-link: https://www.youtube.com/watch?v=mp0APfAsnCQ&list=PL6e-zO-2i9Bjmh0Z6w86iIlQmHPth0Zsh
+			
+			-- card.hastag-card: A Day at Tulasi Waldorf | Tulasi Waldorf School
+			bg-image: $assets.files.assets.work.tulsi.png
+			hastag: Short Documentary
+			cta-link: https://www.youtube.com/watch?v=k_Mvxhjpea4&t=11s
+			
+			-- card.hastag-card: Fiction & Non Fiction Writing | Himalayan Writing Retreat
+			bg-image: $assets.files.assets.work.himalayan_writing.png
+			hastag: Learning Modules
+			cta-link: https://www.youtube.com/playlist?list=PL6e-zO-2i9BhcAWAK2NsWMpH4uycllQUd
+			
+			-- card.hastag-card: LMS Videos | WinVinaya Foundation
+			bg-image: $assets.files.assets.work.winVinaya.png
+			hastag: Learning Modules
+			cta-link: https://www.youtube.com/watch?v=jVqNzt232fA&t=1s
+			
+			-- card.hastag-card: Product Animation Video | Rawbin
+			bg-image: $assets.files.assets.work.rawbin.png
+			hastag: Animation
+			cta-link: https://www.youtube.com/watch?v=LyTpXQoIGho
+			
+		-- end: ds.row
+
+	-- end: ds.column
+
+
+
+
+
+
+	-- ds.column:
+	radius: $ds.radius.zero
+	inset if { ftd.device != "mobile"}: $ds.spaces.inset-square.extra-large
+	spacing: $ds.spaces.vertical-gap.extra-large
+	background.solid: $inherited.colors.background.step-1
+	
+		-- ds.heading-large: Currently Working On
+		align: center
+		
+		-- ds.row:
+		wrap: true
+		inset: $ds.spaces.inset-tall.zero-medium
+		spacing: $ds.spaces.horizontal-gap.extra-large
+		
+			-- card.hastag-card: Mane Mane Kathegalu
+			bg-image:  $assets.files.assets.work.current_work_1.jpg
+			hastag: Non-Fiction Series
+			cta-link: /
+			
+			In Collaboration with INTACH
+			
+			-- card.hastag-card: Podcast Series
+			bg-image: $assets.files.assets.work.current_work_2.jpg
+			cta-link: /
+			
+			-- card.hastag-card: Reimagining Urban Realities
+			bg-image: $assets.files.assets.work.current_work_3.jpeg
+			hastag: Documentation
+			cta-link: /
+			
+			Reimagining Urban Realities
+			
+		-- end: ds.row
+
+	-- end: ds.column
+
+
+
+
+
+
+	-- ds.column:
+	inset: $ds.spaces.inset-square.zero
+	spacing: $ds.spaces.vertical-gap.extra-extra-large
+	
+		-- ds.column:
+		radius: $ds.radius.zero
+		inset if { ftd.device != "mobile"}: $ds.spaces.inset-square.extra-large
+		spacing if { ftd.device != "mobile"}: $ds.spaces.vertical-gap.extra-large
+		
+			-- ds.heading-large: Partners in Purpose
+
+				-- slider.icon-slider:
+				icon: $icon
+
+		-- end: ds.column
+
+
+
+
+
+		-- ds.column:
+		inset if { ftd.device != "mobile" }: $ds.spaces.inset-tall.large
+		spacing: $ds.spaces.vertical-gap.large
+		
+			-- ds.heading-large: Testimonials
+			align: center
+			
+			-- slider.testimonial-slider:
+			testimonial: $list-of-testimonials-top
+			
+		-- end: ds.column
+
+
+
+
+		-- ds.column:
+		inset: $ds.spaces.inset-square.zero
+		spacing: $ds.spaces.vertical-gap.zero
+		
+			-- ds.column:
+			radius: $ds.radius.zero
+			inset: $ds.spaces.inset-square.large
+			background.solid: $inherited.colors.background.step-1
+			
+				/-- ds.heading-large: Our commitment to sustainability
+				-- ds.heading-large: Since our founding in 2023, we have achieved
+				
+			-- end: ds.column
+
+			-- ftd.row:
+			spacing.fixed.px: 32
+			wrap: true
+			margin-top.px: 48
+			align-content: center
+
+			-- card.icon-card:
+			icon: $assets.files.assets.icons.co2.svg
+			card-icon: true
+			width.fixed.px: 300
+
+			MTCO2e avoided
+
+			-- card.icon-card:
+			icon: $assets.files.assets.icons.recycle.svg
+			card-icon: true
+			width.fixed.px: 300
+
+			Tons of material diverted from landfill
+
+			-- card.icon-card:
+			icon: $assets.files.assets.icons.bottle.svg
+			card-icon: true
+			width.fixed.px: 300
+
+			Plastic water bottles avoided
+
+			-- end: ftd.row
+
+			/-- hero.hero-sticky-image: This website takes up ___ C02
+			sticky-image: https://film-studio.fifthtry.site/-/film-studio.fifthtry.site/assets/icon-2-dark.svg
+			sub-title-1: We follow a low waste process on all our shoots.
+			sub-title-2: We even audit our waste in the form of a certificate.
+			
+		-- end: ds.column
+
+		-- ds.column:
+		inset if { ftd.device != "mobile" }: $ds.spaces.inset-tall.large
+		spacing: $ds.spaces.vertical-gap.large
+		background.solid: $inherited.colors.background.step-1
+		radius: $ds.radius.zero
+		
+			-- ds.heading-large: Meet Our Team
+			align: center
+			
+			-- team.member:
+			team-member: $team-member
+			
+		-- end: ds.column
+
+	-- end: ds.column
+
+
+
+;; logo back
+
+	-- ftd.column:
+	width: fill-container
+	align-content: center
+
+	-- ftd.image:
+	src: $assets.files.assets.screening.Samayada_Harivu_Poster.png
+	width: fill-container
+
+	-- end: ftd.column
+
+
+
+
+
+
+
+;; background image and icon
+
+	-- ftd.column:
+	width: fill-container
+	padding.px: 64
+	align-content: center
+	background.solid: $ds.colors.background.step-2
+
+	-- ftd.row:
+	wrap: true
+	width if { ftd.device == "mobile" }: fill-container
+	width.fixed.px: 1140
+	align-content: center
+	spacing.fixed.px: 28
+
+	-- ftd.image:
+	src: $assets.files.assets.screening.screen-1.png
+	width.fixed.px: 250
+
+	-- ftd.image:
+	src: $assets.files.assets.screening.screen-2.png
+	width.fixed.px: 250
+	background.solid: #ffffff
+	
+	-- ftd.image:
+	src: $assets.files.assets.screening.screen-3.png
+	width.fixed.px: 250
+	background.solid: #ffffff
+
+	-- ftd.image:
+	src: $assets.files.assets.screening.screen-4.png
+	width.fixed.px: 250
+
+	-- ftd.image:
+	src: $assets.files.assets.screening.screen-5.png
+	width.fixed.px: 250
+
+	-- ftd.image:
+	src: $assets.files.assets.screening.screen-7.png
+	width.fixed.px: 250
+
+	-- ftd.image:
+	src: $assets.files.assets.screening.screen-8.jpeg
+	width.fixed.px: 250
+
+	-- ftd.image:
+	src: $assets.files.assets.screening.screen-9.jpg
+	width.fixed.px: 250
+
+	-- ftd.image:
+	src: $assets.files.assets.screening.screen-10.jpg
+	width.fixed.px: 250
+
+	-- end: ftd.row
+
+	-- end: ftd.column
+
+
+
+
+
+
+	;; footer
+
+	-- ds.column:
+	background.image: $assets.files.assets.others.footer_bnr.png ;;https://film-studio.fifthtry.site/-/film-studio.fifthtry.site/assets/bg-img-dark.jpg
+	inset: $ds.spaces.inset-wide.large
+	margin: $ds.spaces.vertical-gap.zero
+	radius: $ds.radius.zero
+	spacing: $ds.spaces.vertical-gap.small
+	height.fixed.vh: 100
+	align-content: left
+	id: contact
+	
+		-- ds.column:
+		spacing: $ds.spaces.vertical-gap.small
+		align-content: center
+		
+			-- ds.heading-large: Have a story to tell?
+			align: center
+			
+			-- ds.heading-large: We are all ears.
+			
+		-- end: ds.column
+
+		-- ds.column:
+		spacing: $ds.spaces.vertical-gap.small
+		align-content: center
+		
+			-- ds.copy-large: PHONE
+			-- ds.copy-large: +91 9035806931
+			
+		-- end: ds.column
+
+		-- ds.column:
+		spacing: $ds.spaces.vertical-gap.small
+		align-content: center
+		
+			-- ds.copy-large: E-MAIL
+			-- ds.copy-large: get.rerooted@gmail.com
+			
+		-- end: ds.column
+
+		-- ds.row:
+		spacing: $ds.spaces.vertical-gap.large
+		align-content: center
+		
+			-- ftd.image:
+			src: $assets.files.assets.icons.instagram.svg
+			width.fixed.px: 24
+			link: https://www.instagram.com/rerooted.films?igsh=MXJ3dXU5eDFsMTlwZQ==
+
+			-- ftd.image:
+			src: $assets.files.assets.icons.yt.svg
+			width.fixed.px: 24
+			link: https://www.youtube.com/@ReRootedFilms
+
+			-- ftd.image:
+			src: $assets.files.assets.icons.linkedin.svg
+			width.fixed.px: 24
+			link: https://www.linkedin.com/company/rerooted-films/?viewAsMember=true
+			
+		-- end: ds.row
+
+	-- end: ds.column
+
+	-- hero.hero-with-background: 
+	sub-title: This website takes up _ C02. We follow a low waste process on all our shoots.
+	sub-title-1: Low waste website.
+	min-height.fixed.px: 250
+
+-- end: ds.column
+
+-- end: ds.site-page
+
+
+-- slider.icons list icon:
+
+-- slider.icons:
+image: $assets.files.assets.partners.1.png
+
+-- slider.icons:
+image: $assets.files.assets.partners.3.png
+
+-- slider.icons:
+image: $assets.files.assets.partners.4.png
+
+-- slider.icons:
+image: $assets.files.assets.partners.5.png
+
+-- slider.icons:
+image: $assets.files.assets.partners.6.png
+
+-- slider.icons:
+image: $assets.files.assets.partners.7.png
+
+-- end: icon
+
+
+
+
+-- slider.slide-testimonial list list-of-testimonials-top:
+
+-- slider.slide-testimonial:
+user: Rukhsar Gauri
+designation: Senior Project Coordinator, Saahas NGO
+avatar: $assets.files.assets.team.Rukhsar_Gauri.png
+
+“It was a pleasure collaborating on the creation of a project impact movie. From our very first meeting,
+the team demonstarted an impressive understanding of our movie's objevtives. Also, throughout the entire process,
+from sctipting to shooting and final outcome, the team exhibited creative ideas. We expected the movie to reflect
+authenticity and naturalness, and they diligently adhered to it.
+Most important think is that she also practices sustainable lifestyle, which resonates perfectly with our Saahas values.
+I would highly recommend them.”
+
+-- slider.slide-testimonial:
+user: Rohan Massey
+designation: Project Lead, Saahas Zero Waste
+avatar: $assets.files.assets.team.Rohan_Massey.png
+
+“It was indeed a smooth experience collaborating with the team.
+They were able to quickly grasp the idea/intent of what we were trying to
+communicate and put across a clear scope of work and requirements from both sides.
+The team was prompt in receiving changes and since it was our first time -
+they had the patience to make changes even at the last moment.
+Calm and composed approach with an emphasis on sustainability -
+really looking forward to working with their team again in the future.”
+
+-- slider.slide-testimonial:
+user: Hrishita Gupta
+designation: Program Manager, Saahas NGO
+avatar: $assets.files.assets.team.harshita_gupta.png
+
+“As a manager, it was my first experience in creating an impact movie. This experience has been smooth and enriching.
+Our thoughts and creative flow was aligned and her expertise led to a great outcome. Right from the scripting to direction,
+they showcased our work in an effective and engaging manner. Highly recommending the team. Cherry on the cake was the
+low waste approach they took during the production of the movie, which completely resonated with Saahas's values.”
+
+
+-- slider.slide-testimonial:
+user: Akila Sankar
+designation: Co-Founder, WinVinaya Foundation
+avatar: $assets.files.assets.team.akila_sankar.png
+
+“I had an experience with men being behind the camera,
+so it was refreshing to work with women behind the camera — I really enjoyed that.
+Rerooted is very resilient in approaching the client, and they help you refine your story too.
+I believe these videos will create much awareness about persons with disabilities and reach a much bigger crowd.”
+
+
+
+-- slider.slide-testimonial:
+user: ⁠Divya BA
+designation: Founder, Tulasi Waldorf Kindergarten
+avatar: $assets.files.assets.team.Divya_BA_Tulsi_Founder.png
+
+“ReRooted.Films brought so much creativity and care to our project. The visuals were beautiful and thoughtfully done.
+There is always room for improvement. The video will help parents get a first round of introduction to what we offer at Tulasi!”
+
+-- slider.slide-testimonial:
+user: ⁠Ajay Raghavan
+designation: Co-founder, Bangalore Creative Circus
+avatar: $assets.files.assets.team.ajay.png
+
+"We were happy to collaborate with ReRooted Films for our event documentation. The team was punctual, professional
+and exercised attention to detail. Through their work, they captured the essence of the event – The photographs
+were well-composed and captured both the energy and quiet moments of the week. The report was concise and well-organised,
+offering a clear snapshot of key sessions and takeaways. The final film stitched together the learning journey in a grounded, engaging way.
+Throughout, they were responsive and steady, working efficiently without losing sight of the context.
+The final outputs reflected the work honestly and effectively — and were delivered in a timely, organised manner."
+
+
+-- slider.slide-testimonial:
+user: Jai Warrier
+designation: Design Lead and Co-founder, Zero2Positive
+avatar: $assets.files.assets.team.jai.png
+
+"We were thoroughly impressed with the Re.Rooted team who supported with photo and video documentation
+throughout a week-long event. They put in an exceptional amount of effort to capture every possible moment,
+often working through uncertainty about the final outputs with professionalism and patience.
+Their adaptability and understanding of our evolving requests made the entire process smooth and collaborative.
+The final output was of outstanding quality, not just a chronological documentation, but a well-crafted story that truly reflected the spirit of the event.
+We’re grateful for their dedication and highly recommend their services!"
+
+
+-- slider.slide-testimonial:
+user: Neha Satheesan
+designation: Project and Growth Lead, Zero2Positive
+avatar: $assets.files.assets.team.neha.png
+
+"If you are looking for a team that listens deeply, crafts visually striking work, and
+brings integrity to how stories are told — ReRooted is it. They do not just document events;
+they understand the spirit behind them. The result is something textured, intentional, and beautifully human."
+
+
+-- end: list-of-testimonials-top
+
+
+
+
+-- testimonials.testimonial-nav list navs:
+
+-- testimonials.testimonial-nav:
+active: true
+index: 1
+
+-- testimonials.testimonial-nav:
+index: 2
+
+-- testimonials.testimonial-nav:
+index: 3
+
+-- testimonials.testimonial-nav:
+index: 4
+
+-- testimonials.testimonial-nav:
+index: 5
+
+-- end: navs
+
+
+
+
+-- team-r.members list team-member:
+
+-- team-r.members: Shruti Parthasarathy
+profile: Founder, Filmmaker
+sub-profile: Alumna : Satyajit Ray Film & Television Institute
+image: $assets.files.assets.team.Shruti_founder.png
+linkedin-link: https://www.linkedin.com/in/shruti-parthasarathy
+instagram-link: https://www.instagram.com/shruti.parthasarathy/
+imdb-link: https://m.imdb.com/name/nm14488172/?ref_=tt_ov_wr_1
+
+Shruti is a writer, photographer, and filmmaker focused on environmental and social issues.
+Her acclaimed works, including Domicile and Samayada Harivu, highlight gender, LGBTQIA+ rights, and sustainability.
+Founder of ReRooted.Films, her films have earned global recognition.
+She’s currently directing a documentary for the Public Service Broadcasting Trust.
+
+
+-- team-r.members: Vikas Tiwari
+profile: Founding Team, Filmmaker 
+sub-profile: Alumna : Satyajit Ray Film & Television Institute
+image: $assets.files.assets.team.Vikas_Tiwari_Founder.png
+linkedin-link: https://www.linkedin.com/in/vikash-tiwari-8b875726b/
+instagram-link: https://www.instagram.com/vikash221007/
+imdb-link: https://m.imdb.com/name/nm14488172/?ref_=tt_ov_wr_1
+
+Vikash is a self-taught filmmaker with expertise in writing, directing, and sound design.
+His notable works include Apaar, Samayada Harivu, AriEWu, and Bangalore 560046.
+He has worked on award-winning films like Three-Two-One and Liquid State of Matters,
+with his projects featured at BUSAN, Chicago Indie, and Mumbai Film Festivals.
+
+
+-- end: team-member
+
+
+
+
+
+
+
+-- accordion.accordion-list list accordions:
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- accordion.accordion-list: Lorem ipsum dolor sit amet?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- end: accordions

@@ -1,0 +1,17 @@
+-- integer max-width: 1520
+
+-- string copyright: Copyright © 2025
+-- ftd.image-src twitter-logo: $assets.files.assets.twitter.svg
+-- string twitter-url: https://twitter.com/FifthTryHQ
+-- ftd.image-src facebook-logo: $assets.files.assets.facebook.svg
+-- string facebook-url: /
+-- ftd.image-src discord-logo: $assets.files.assets.discord.svg
+-- string discord-url: https://discord.gg/bucrdvptYd
+-- ftd.image-src instagram-logo: $assets.files.assets.instagram.svg
+-- string instagram-url: /
+-- ftd.image-src telegram-logo: $assets.files.assets.telegram.svg
+-- string telegram-url: /
+-- string site-url: /
+-- ftd.image-src site-logo: $assets.files.assets.logos.logo_green.png
+-- integer logo-height: 0
+-- boolean social: false
