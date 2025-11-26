@@ -416,11 +416,6 @@ inset: $ds.spaces.inset-square.zero
 
 	-- end: ds.column
 
-	-- hero.hero-with-background: 
-	sub-title: This website takes up _ C02. We follow a low waste process on all our shoots.
-	sub-title-1: Low waste website.
-	min-height.fixed.px: 250
-
 -- end: ds.column
 
 -- end: ds.site-page
@@ -634,4 +629,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
 in luctus rutrum.
 
 -- end: accordions
+
 
