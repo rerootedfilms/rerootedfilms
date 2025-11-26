@@ -296,7 +296,7 @@ inset: $ds.spaces.inset-square.zero
 	width: fill-container
 	padding.px: 64
 	align-content: center
-	background.solid: $ds.colors.background.step-2
+	background.solid: $inherited.colors.background.step-2
 
 	-- ftd.row:
 	wrap: true
@@ -629,5 +629,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
 in luctus rutrum.
 
 -- end: accordions
+
 
 
