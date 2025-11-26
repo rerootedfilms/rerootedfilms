@@ -23,8 +23,20 @@ inset: $ds.spaces.inset-square.zero
 	color-hero: #ffffff
 	color-text: #ffffff
 	
+	-- ds.column:
+	width.fixed.px if { ftd.device != "mobile" }: 1042
+	inset: $ds.spaces.inset-square.extra-large
+
+	-- ds.copy-regular:
+	align: center
+
+	REROOTED.FILMS is an end-to-end film production studio dedicated to crafting empathetic, intentional, and relevant narratives, grounded in sustainable practices. We work across (but not limited to) fiction, documentaries, corporate and impact films, podcasts, animation, and more telling stories that reconnect us with cultures, values, and voices often overlooked. Our commitment extends to climate storytelling and its many intersectionalities.
+
+	We audit our own waste, carbon footprint, and resource use, striving to align our processes with the values we champion on screen.
+
+	We dream of creating the first ad for a thrift store, of spotlighting climate solutions, and amplifying community-led change. At the heart of it all, our ambition is to make storytelling a force for empathy, action, and lasting hope.
 	
-	
+	-- end: ds.column
 	
 	-- ds.column:
 	radius: $ds.radius.zero
@@ -629,6 +641,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
 in luctus rutrum.
 
 -- end: accordions
+
 
 
 
