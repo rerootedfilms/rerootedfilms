@@ -251,11 +251,6 @@ inset: $ds.spaces.inset-square.zero
 			Plastic water bottles avoided
 
 			-- end: ftd.row
-
-			/-- hero.hero-sticky-image: This website takes up ___ C02
-			sticky-image: https://film-studio.fifthtry.site/-/film-studio.fifthtry.site/assets/icon-2-dark.svg
-			sub-title-1: We follow a low waste process on all our shoots.
-			sub-title-2: We even audit our waste in the form of a certificate.
 			
 		-- end: ds.column
 
@@ -639,3 +634,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
 in luctus rutrum.
 
 -- end: accordions
+
