@@ -123,22 +123,6 @@ This is the hero-sticky-image section of this website. Over here it takes
 `hero-sticky-image` components from `hero.fifthtry.site` package. To check
 more hero components go to [`hero.fifthtry.site`](https://hero.fifthtry.site/)
 
--- ds.code:
-
-\-- hero.hero-sticky-image: This website takes up ___ C02
-sticky-image: $assets.files.assets.icon-2.svg
-sub-title-1: We follow a low waste process on all our shoots.
-sub-title-2: We even audit our waste in the form of a certificate.
-
--- site-doc.output:
-
--- hero.hero-sticky-image: This website takes up ___ C02
-sticky-image: $assets.files.assets.icon-2.svg
-sub-title-1: We follow a low waste process on all our shoots.
-sub-title-2: We even audit our waste in the form of a certificate.
-
--- end: site-doc.output
-
 -- site-doc.header: Team:
 
 This is the team member section of this website. Over here it takes
@@ -160,5 +144,6 @@ team-member: $i.team-member
 -- site-doc.header: Footer: 
 
 Below all the components there is footer section where you can add all you contact details.
+
 
 -- end: site-doc.doc-home
