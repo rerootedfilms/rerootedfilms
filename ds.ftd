@@ -37,16 +37,6 @@ align-right: true
 -- footer.social-sideline-footer: This website takes up 3.86 C02.
 footer-links: $footer.sitemap.sections
 copyright: $setting.copyright
-twitter-logo: $setting.twitter-logo
-twitter-url: $setting.twitter-url
-facebook-logo: $setting.facebook-logo
-facebook-url: $setting.facebook-url
-discord-logo: $setting.discord-logo
-discord-url: $setting.discord-url
-instagram-logo: $setting.instagram-logo
-instagram-url: $setting.instagram-url
-telegram-logo: $setting.telegram-logo
-telegram-url: $setting.telegram-url
 site-url: $setting.site-url
 site-logo: $site-logo
 logo-height: $setting.logo-height
